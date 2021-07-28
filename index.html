@@ -6,10 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testing</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" ></script>
+    
 
 </head>
 <body>
-    <h1 class='h1'>Some Text</h1>
+<div class="wrapper">
+    <div class="container"> 
+           
+        <div class=item >
+            <p class=logo>Your todos</p>
+        </div> 
+
+        <div class="item" class= 'todo'>
+            <ul id="myUL">
+                <div>
+                    <input type="checkbox" id="todo" name="todo">
+                        <label for="todo">
+                            make this todo
+                        </label>
+                  </div>
+                
+            </ul>
+        </div>
+
+        <div class="item form" class="form">
+            <input type="text" id="myInput" placeholder="Add new item" />
+            <div class="colorbox"></div>
+            <div class="colorbox"></div> 
+            <div class="colorbox"></div> 
+            <div class="colorbox"></div> 
+            <div class="colorbox"></div> 
+            <div class="colorbox"></div>  
+            <span class="addBtn" id="add_button">Add</span>          
+        </div>
+    </div>
+</div>
+    <script src="script.js" ></script>
 </body>
 </html>
